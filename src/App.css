@@ -1,0 +1,27 @@
+/* Styles for other components (if any) */
+.timesheet-selector,
+.equipment-selector,
+.materials-selector {
+  margin: 20px 0;
+}
+
+.timesheet-selector select,
+.equipment-selector select,
+.materials-selector select {
+  margin-left: 10px;
+}
+
+.add-timesheet-form,
+.add-equipment-form,
+.add-material-form {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.add-timesheet-form button,
+.add-equipment-form button,
+.add-material-form button {
+  margin-right: 10px;
+}

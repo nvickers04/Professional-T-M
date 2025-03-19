@@ -1,0 +1,93 @@
+.employee-time-entry-container {
+    padding: 20px;
+  }
+  
+  .employee-list {
+    margin-bottom: 20px;
+  }
+  
+  .employee-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .employee-list-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .employee-list-header button {
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .employee-list-header button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .employee-list-body {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .employee-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .employee-item input {
+    margin-right: 10px;
+  }
+  
+  .add-timesheet-form h3 {
+    margin: 0 0 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .add-timesheet-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .add-timesheet-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .add-timesheet-form .form-group input,
+  .add-timesheet-form .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .add-timesheet-form .form-group input[readonly] {
+    background-color: #f0f0f0;
+  }
+  
+  .add-timesheet-form button {
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-timesheet-form button:hover {
+    background-color: #1557b0;
+  }

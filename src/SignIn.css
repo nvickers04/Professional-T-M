@@ -1,0 +1,154 @@
+.signin-container {
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: Arial, sans-serif;
+  }
+  
+  .signin-header {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    position: absolute;
+    top: 0;
+  }
+  
+  .signin-header h1 {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1a73e8; /* Dropbox blue */
+  }
+  
+  .signin-form-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%;
+  }
+  
+  .signin-form-container {
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .signin-form-container h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .social-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .social-login.google::before {
+    content: url('https://www.google.com/favicon.ico');
+    margin-right: 10px;
+  }
+  
+  .social-login.apple::before {
+    content: '🍎';
+    margin-right: 10px;
+  }
+  
+  .separator {
+    margin: 15px 0;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .password-wrapper {
+    position: relative;
+  }
+  
+  .password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1a73e8; /* Dropbox blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #1557b0;
+  }
+  
+  .signup-link {
+    display: block;
+    margin-top: 20px;
+    color: #1a73e8;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline;
+  }
+  
+  .signin-footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .footer-links a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .footer-links span {
+    color: #666;
+  }
+  
+  .language-selector {
+    margin-top: 10px;
+  }
+  
+  .language-selector span {
+    color: #666;
+  }

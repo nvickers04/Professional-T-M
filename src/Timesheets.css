@@ -1,0 +1,126 @@
+.timesheets-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .identification h2 {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .identification h3 {
+    margin: 5px 0;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .job-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  .job-details span {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .underline {
+    display: inline-block;
+    min-width: 100px;
+    border-bottom: 1px solid #000;
+  }
+  
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .employee-table th,
+  .employee-table td {
+    border: 1px solid #000;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .employee-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .time-summary {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: right;
+  }
+  
+  .time-summary p {
+    margin: 5px 0;
+  }
+  
+  .materials-equipment {
+    margin-top: 20px;
+  }
+  
+  .materials-equipment p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .materials-columns {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .materials-table {
+    width: 50%;
+    border-collapse: collapse;
+  }
+  
+  .materials-table td {
+    border: 1px solid #000;
+    padding: 5px;
+    font-size: 12px;
+  }
+  
+  .work-footer {
+    margin-top: 20px;
+  }
+  
+  .work-footer p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .description-box {
+    padding: 10px;
+    min-height: 100px;
+    font-size: 12px;
+  }
+  
+  .description-line {
+    border-bottom: 1px solid #000;
+    padding: 5px 0;
+  }
+  
+  .description-line:last-child {
+    border-bottom: none;
+  }
+  
+  .footer-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .footer-details span {
+    flex: 1;
+    text-align: center;
+  }
+  
